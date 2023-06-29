@@ -16,6 +16,7 @@ public class ProductService {
 	
 	List<Product> products = new ArrayList<>();
 	
+	// Autowired tells Spring to use ProdDBI as bean to be used
 	@Autowired
 	ProdDBI db ;
 	
